@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Users } from './Users';
+import { Users } from '../Users';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
-export class AppComponent {
-  title = 'Flaura';
-
+export class LoginComponent {
   boolLoginSuccess = false;
 
   logout() {
